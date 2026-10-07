@@ -1,0 +1,150 @@
+{
+  "users": [
+    {
+      "id": "admin1",
+      "name": "Admin",
+      "email": "admin@logitrack.com",
+      "password": "admin123",
+      "role": "admin",
+      "createdAt": "2026-10-01"
+    },
+    {
+      "id": "1",
+      "name": "Lohitha",
+      "email": "lohitha@gmail.com",
+      "password": "123456",
+      "role": "user",
+      "createdAt": "2026-10-01"
+    },
+    {
+      "name": "lohitha",
+      "email": "lohithajajimoggala18@gmail.com",
+      "password": "1926787119",
+      "id": "GWFern4dens",
+      "role": "user",
+      "createdAt": "2026-10-01"
+    },
+    {
+      "id": "3",
+      "name": "Demo User",
+      "email": "user@logitrack.com",
+      "password": "user123",
+      "role": "user",
+      "createdAt": "2026-10-02"
+    }
+  ],
+  "shipments": [
+    {
+      "id": "101",
+      "trackingId": "TRK1001",
+      "sender": "Ravi Kumar",
+      "receiver": "Priya",
+      "origin": "Hyderabad",
+      "destination": "Bangalore",
+      "courier": "Blue Dart",
+      "status": "In Transit",
+      "priority": "High",
+      "weight": 2.5,
+      "price": 500,
+      "date": "2026-10-01",
+      "userId": "1",
+      "createdBy": "Lohitha"
+    },
+    {
+      "id": "102",
+      "trackingId": "TRK1002",
+      "sender": "Suresh",
+      "receiver": "Anjali",
+      "origin": "Chennai",
+      "destination": "Vijayawada",
+      "courier": "DTDC",
+      "status": "Delivered",
+      "priority": "Normal",
+      "weight": 1.5,
+      "price": 300,
+      "date": "2026-10-02",
+      "userId": "1",
+      "createdBy": "Lohitha"
+    },
+    {
+      "id": "103",
+      "trackingId": "TRK1003",
+      "sender": "Kiran",
+      "receiver": "Arun",
+      "origin": "Delhi",
+      "destination": "Mumbai",
+      "courier": "Delhivery",
+      "status": "Pending",
+      "priority": "High",
+      "weight": 5,
+      "price": 1000,
+      "date": "2026-10-03",
+      "userId": "1",
+      "createdBy": "Lohitha"
+    },
+    {
+      "id": "104",
+      "trackingId": "TRK1004",
+      "sender": "Rahul",
+      "receiver": "Sneha",
+      "origin": "Pune",
+      "destination": "Hyderabad",
+      "courier": "Blue Dart",
+      "status": "In Transit",
+      "priority": "Normal",
+      "weight": 3,
+      "price": 650,
+      "date": "2026-10-03",
+      "userId": "3",
+      "createdBy": "Demo User"
+    },
+    {
+      "id": "105",
+      "trackingId": "TRK1005",
+      "sender": "Vikram",
+      "receiver": "Meena",
+      "origin": "Bangalore",
+      "destination": "Chennai",
+      "courier": "DTDC",
+      "status": "Delivered",
+      "priority": "High",
+      "weight": 4,
+      "price": 800,
+      "date": "2026-10-04",
+      "userId": "3",
+      "createdBy": "Demo User"
+    },
+    {
+      "id": "106",
+      "trackingId": "TRK1006",
+      "sender": "Arjun",
+      "receiver": "Kavya",
+      "origin": "Mumbai",
+      "destination": "Delhi",
+      "courier": "Delhivery",
+      "status": "Pending",
+      "priority": "Normal",
+      "weight": 2,
+      "price": 450,
+      "date": "2026-10-04",
+      "userId": "3",
+      "createdBy": "Demo User"
+    },
+    {
+      "trackingId": "TRK1007",
+      "sender": "Lohitha",
+      "receiver": "rahul",
+      "origin": "hyderabad",
+      "destination": "chennai",
+      "courier": "blue dart",
+      "status": "Pending",
+      "priority": "High",
+      "weight": 2,
+      "price": 600,
+      "date": "2024-01-02",
+      "id": "Pp1Vgp75K6Q",
+      "userId": "GWFern4dens",
+      "createdBy": "lohitha"
+    }
+  ]
+}
